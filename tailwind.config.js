@@ -6,8 +6,19 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // colors: {
+    //   'lightpurp': '#8d2ce2',
+    //   'darkpurp': '#4b01e0',
+    // },
+    fontFamily: {
+      inter: ['Inter', 'sans-serif']
+    },
     extend: {
+
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require('tailwind-scrollbar')
+  ],
 }
