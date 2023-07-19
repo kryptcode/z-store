@@ -11,7 +11,9 @@ module.exports = {
     //   'darkpurp': '#4b01e0',
     // },
     fontFamily: {
-      inter: ['Inter', 'sans-serif']
+      inter: ['Inter', 'sans-serif'],
+      openSans: ['Open Sans', 'sans-serif'],
+      manRope: ['Manrope', 'sans-serif'],
     },
     extend: {
 
